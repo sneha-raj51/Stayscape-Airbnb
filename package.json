@@ -1,0 +1,23 @@
+{
+  "name": "stayscape",
+  "version": "1.0.0",
+  "description": "StayScape - Full Stack Airbnb Clone",
+  "scripts": {
+    "start": "npm --prefix backend start",
+    "dev": "npm --prefix backend run dev",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "seed": "npm --prefix backend run seed",
+    "build:frontend": "npm --prefix frontend run build",
+    "test": "npm --prefix backend test && npm --prefix backend run test:e2e",
+    "test:backend": "npm --prefix backend test",
+    "test:e2e": "npm --prefix backend run test:e2e",
+    "install:all": "npm --prefix backend install && npm --prefix frontend install"
+  },
+  "keywords": [
+    "airbnb",
+    "stayscape"
+  ],
+  "author": "",
+  "license": "ISC"
+}
